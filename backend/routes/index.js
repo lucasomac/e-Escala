@@ -12,3 +12,4 @@ router.get('/escala', EscalaController.index);
 router.get('/search', SearchController.index);
 
 module.exports = router;
+
