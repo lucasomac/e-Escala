@@ -1,0 +1,231 @@
+{
+  "2020": {
+    "02": {
+      "11": [
+        {
+          "local": "PIEDADE",
+          "horario": "19:30",
+          "ministros": [
+            "MARIA JOS",
+            "CRISTIAN",
+            "DONA MARIA"
+          ]
+        }
+      ],
+      "01": [
+        {
+          "horario": "19:00",
+          "local": "MATRIZ",
+          "ministros": [
+            "LURDES",
+            "MARIA JOSÉ"
+          ]
+        }
+      ],
+      "02": [
+        {
+          "horario": "7:00",
+          "local": "SANTO EXPEDITO",
+          "ministros": [
+            "LUCIANO",
+            "ZÉLIA"
+          ]
+        },
+        {
+          "horario": "8:30",
+          "local": "MATRIZ",
+          "ministros": [
+            "MARIA HELENA",
+            "SÔNIA"
+          ]
+        },
+        {
+          "horario": "17:00",
+          "local": "MATRIZ",
+          "ministros": [
+            "GLEICE",
+            "CRISTIAN"
+          ]
+        }
+      ],
+      "06": [
+        {
+          "horario": "19:30",
+          "local": "SANTO EXPEDITO",
+          "ministros": [
+            "CELENE",
+            "LEDA"
+          ]
+        }
+      ],
+      "07": [
+        {
+          "horario": "19:30",
+          "local": "MATRIZ",
+          "ministros": [
+            "DONA MARIA",
+            "MARIA JOSÉ"
+          ]
+        }
+      ],
+      "08": [
+        {
+          "horario": "19:00",
+          "local": "MATRIZ",
+          "ministros": [
+            "LUCIANO",
+            "LEDA"
+          ]
+        }
+      ],
+      "09": [
+        {
+          "horario": "7:00",
+          "local": "SANTO EXPEDITO",
+          "ministros": [
+            "ZÉLIA",
+            "CRISTIAN"
+          ]
+        },
+        {
+          "horario": "8:30",
+          "local": "MATRIZ",
+          "ministros": [
+            "DONA MARIA",
+            "GLEICE"
+          ]
+        },
+        {
+          "horario": "17:00",
+          "local": "MATRIZ",
+          "ministros": [
+            "LURDES",
+            "CELENE"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "local": "SANTO EXPEDITO",
+          "horario": "19:30",
+          "ministros": [
+            "SÔNIA",
+            "MARIA HELENA"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "local": "MATRIZ",
+          "horario": "19:00",
+          "ministros": [
+            "CELENE",
+            "ZÉLIA"
+          ]
+        }
+      ],
+      "16": [
+        {
+          "local": "SANTO EXPEDITO",
+          "horario": "7:00",
+          "ministros": [
+            "GLEICE",
+            "CRISTIAN"
+          ]
+        },
+        {
+          "local": "MATRIZ",
+          "horario": "8:30",
+          "ministros": [
+            "SÔNIA",
+            "LUCIANO"
+          ]
+        },
+        {
+          "local": "MATRIZ",
+          "horario": "17:00",
+          "ministros": [
+            "DONA MARIA",
+            "LEDA"
+          ]
+        }
+      ],
+      "19": [
+        {
+          "local": "SANTO EXPEDITO",
+          "horario": "19:30",
+          "ministros": [
+            "LUCIANO",
+            "MARIA JOSÉ"
+          ]
+        }
+      ],
+      "20": [
+        {
+          "local": "SANTO EXPEDITO",
+          "horario": "19:30",
+          "ministros": [
+            "CRISTIAN",
+            "ZÉLIA"
+          ]
+        }
+      ],
+      "22": [
+        {
+          "local": "MATRIZ",
+          "horario": "19:00",
+          "ministros": [
+            "LUCIANO",
+            "CELENE"
+          ]
+        }
+      ],
+      "23": [
+        {
+          "local": "SANTO EXPEDITO",
+          "horario": "7:00",
+          "ministros": [
+            "CRISTIAN",
+            "LEDA"
+          ]
+        },
+        {
+          "local": "MATRIZ",
+          "horario": "8:30",
+          "ministros": [
+            "CELENE",
+            "LURDES"
+          ]
+        },
+        {
+          "local": "MATRIZ",
+          "horario": "17:00",
+          "ministros": [
+            "GLEICE",
+            "SÔNIA"
+          ]
+        }
+      ],
+      "27": [
+        {
+          "local": "SANTO EXPEDITO",
+          "horario": "19:30",
+          "ministros": [
+            "LUCIANO",
+            "MARIA JOSÉ"
+          ]
+        }
+      ],
+      "29": [
+        {
+          "local": "MATRIZ",
+          "horario": "19:00",
+          "ministros": [
+            "LURDES",
+            "CELENE"
+          ]
+        }
+      ]
+    }
+  }
+}
