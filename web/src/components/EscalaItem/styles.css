@@ -1,0 +1,32 @@
+li.escala-item {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+li.escala-item header .data-info {
+    margin-left: 10px;
+}
+
+.data-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.data-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+.data-info h1 {
+    color: #999;
+    margin-top: 2px;
+}
+
+.data-info h2 {
+    color: #999;
+    margin-top: 2px;
+}
