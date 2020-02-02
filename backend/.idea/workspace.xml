@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a13a649a-2ed9-4efc-b175-abef30d25dc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/components/EscalaItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/components/EscalaItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../web/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.7.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -59,6 +66,8 @@
       <workItem from="1580329016761" duration="14052000" />
       <workItem from="1580411927256" duration="9204000" />
       <workItem from="1580426293136" duration="6809000" />
+      <workItem from="1580523050264" duration="929000" />
+      <workItem from="1580562978411" duration="4411000" />
     </task>
     <task id="LOCAL-00001" summary="modulo banckend encerrado com inserção e busca finalizados">
       <created>1580424520009</created>
@@ -93,22 +102,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="417" y="129" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580430861254" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1580435233656">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1580578629319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580435233656" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1580435233656">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580578629319" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1580589525724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580435233656" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1580435233656">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580589525724" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1580589525724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580435233656" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1580435233656">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580589525724" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1580589525723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580435233656" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580589525723" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1580589525724">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580589525724" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1580330825389">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
