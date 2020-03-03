@@ -8,6 +8,30 @@ const DATA = [{
   horario: "07:00",
   local: "Santo Expedito",
   ministros: ["Leda", "Gleice"]
+},{
+  _id: '5e5aaf3a6724e42d7c9257ac',
+  dia: "03/01/2020",
+  horario: "07:00",
+  local: "Santo Expedito",
+  ministros: ["Leda", "Gleice"]
+},{
+  _id: '5e5aaf3a6724e43d7c9257ac',
+  dia: "03/01/2020",
+  horario: "07:00",
+  local: "Santo Expedito",
+  ministros: ["Leda", "Gleice"]
+},{
+  _id: '5e5aaf3a6724e44d7c9257ac',
+  dia: "03/01/2020",
+  horario: "07:00",
+  local: "Santo Expedito",
+  ministros: ["Leda", "Gleice"]
+},{
+  _id: '5e5aaf3a6724e45d7c9257ac',
+  dia: "03/01/2020",
+  horario: "07:00",
+  local: "Santo Expedito",
+  ministros: ["Leda", "Gleice"]
 }
 ];
 export default function App() {
@@ -15,7 +39,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <FlatList
         data={DATA}
-        renderItem={({ item }) => <ItemEscala title={item.title} />}
+        renderItem={({ item }) => <ItemEscala escala={item} />}
         keyExtractor={item => item._id}
       />
     </SafeAreaView>
