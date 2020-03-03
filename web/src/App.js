@@ -29,8 +29,8 @@ function App() {
 
     return (
         <div id="app">
-            <aside>
-                <strong>Escala Ministerial do Mês de Fevereiro</strong>
+            <aside align="center">
+                <strong>Escala Ministerial do Mês de Março</strong>
                 {/*<DevForm onSubmit={handleAddDev}/>*/}
             </aside>
             <main>
