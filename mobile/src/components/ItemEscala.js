@@ -1,15 +1,20 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Moment from 'moment';
 
-
+function formatDate(data) {
+    Moment.locale('pt-BR');
+    return Moment(data).format('DD/MM/YYYY');
+}
+const format = 'MM/DD/YYYY';
 
 export default function ItemEscala({ escala }) {
     return (
         <View style={styles.item}>
-            <Text style={styles.dia}>{escala.dia}</Text>
+            <Text style={styles.dia}>{formatDate(escala.dia)}</Text>
             <Text style={styles.horario}>{escala.horario}</Text>
             <Text style={styles.local}>{escala.local}</Text>
-            <Text style={styles.ministros}>{escala.ministros.join(' ')}</Text>
+            <Text style={styles.ministros}>{escala.ministros.join(' | ')}</Text>
         </View>
     );
 }
@@ -17,7 +22,7 @@ export default function ItemEscala({ escala }) {
 
 const styles = StyleSheet.create({
     item: {
-        backgroundColor: '#EE8925',
+        backgroundColor: '#0af346',
         padding: 8,
         marginVertical: 8,
         marginHorizontal: 16,
@@ -26,9 +31,8 @@ const styles = StyleSheet.create({
     },
     dia: {
         fontSize: 32,
-        textAlign: "center",
-        // borderColor:"FFF",
-        borderRadius: 12
+        fontWeight: "bold",
+        textAlign: "center"
     },
     horario: {
         textAlign: "center",
@@ -41,6 +45,7 @@ const styles = StyleSheet.create({
     ministros: {
         textAlign: "center",
         fontSize: 25,
+        color: "#FFF"
     }
 
 });
