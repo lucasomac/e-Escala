@@ -2,19 +2,13 @@ import React from 'react';
 import { SafeAreaView, StyleSheet, FlatList } from 'react-native';
 import ItemEscala from './src/ItemEscala';
 import Constants from 'expo-constants';
-const DATA = [
-  {
-    id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-    title: 'First Item',
-  },
-  {
-    id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-    title: 'Second Item',
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-145571e29d72',
-    title: 'Third Item',
-  },
+const DATA = [{
+  _id: '5e5aaf3a6724e41d7c9257ac',
+  dia: "03/01/2020",
+  horario: "07:00",
+  local: "Santo Expedito",
+  ministros: ["Leda", "Gleice"]
+}
 ];
 export default function App() {
   return (
@@ -22,7 +16,7 @@ export default function App() {
       <FlatList
         data={DATA}
         renderItem={({ item }) => <ItemEscala title={item.title} />}
-        keyExtractor={item => item.id}
+        keyExtractor={item => item._id}
       />
     </SafeAreaView>
   );
