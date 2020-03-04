@@ -6,8 +6,8 @@ import ListaEscala from "./components/ListaEscala";
 
 const Stack = createStackNavigator();
 const ScreenStyles = {
-    headerTintColor: "#FFF",
-    headerStyle: { backgroundColor: "#0af346" }
+    headerTintColor: "#000",
+    headerStyle: { backgroundColor: "#0af346" },
 };
 function Routes() {
     return (

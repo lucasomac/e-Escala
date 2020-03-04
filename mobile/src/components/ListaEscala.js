@@ -29,7 +29,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         marginTop: Constants.statusBarHeight,
-    }, title: {
+        backgroundColor: '#ffffff',
+    },
+    title: {
         fontSize: 32,
     },
 });

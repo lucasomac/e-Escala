@@ -1,11 +1,9 @@
 import React from 'react';
-// import Routes from './src/routes';
-import ListaEscala from './src/components/ListaEscala'
-
+import Routes from './src/routes';
 
 export default function App() {
 
   return (
-    <ListaEscala />
+    <Routes />
   );
 }

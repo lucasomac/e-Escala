@@ -2,11 +2,11 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Moment from 'moment';
 
+
 function formatDate(data) {
     Moment.locale('pt-BR');
     return Moment(data).format('DD/MM/YYYY');
 }
-const format = 'MM/DD/YYYY';
 
 export default function ItemEscala({ escala }) {
     return (
@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
         padding: 8,
         marginVertical: 8,
         marginHorizontal: 16,
+        marginBottom: 8,
         flex: 1,
         borderRadius: 15
     },
