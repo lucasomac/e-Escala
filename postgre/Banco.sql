@@ -76,19 +76,19 @@ ALTER TABLE public.escala OWNER TO postgres;
 -- Name: ministros; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.ministros (
+CREATE TABLE public.ministro (
     id integer NOT NULL,
     nome character varying(255) NOT NULL
 );
 
 
-ALTER TABLE public.ministros OWNER TO postgres;
+ALTER TABLE public.ministro OWNER TO postgres;
 
 --
 -- Name: ministros_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
-CREATE SEQUENCE public.ministros_id_seq
+CREATE SEQUENCE public.ministro_id_seq
     AS integer
     START WITH 1
     INCREMENT BY 1
@@ -97,13 +97,13 @@ CREATE SEQUENCE public.ministros_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.ministros_id_seq OWNER TO postgres;
+ALTER TABLE public.ministro_id_seq OWNER TO postgres;
 
 --
 -- Name: ministros_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
-ALTER SEQUENCE public.ministros_id_seq OWNED BY public.ministros.id;
+ALTER SEQUENCE public.ministro_id_seq OWNED BY public.ministro.id;
 
 
 --
@@ -124,7 +124,7 @@ ALTER TABLE public.seq_ministro OWNER TO postgres;
 -- Name: ministros id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY public.ministros ALTER COLUMN id SET DEFAULT nextval('public.ministros_id_seq'::regclass);
+ALTER TABLE ONLY public.ministro ALTER COLUMN id SET DEFAULT nextval('public.ministro_id_seq'::regclass);
 
 
 --
@@ -178,23 +178,23 @@ INSERT INTO public.escala (id, data, horario, local, ministro) VALUES (41, '2020
 -- Data for Name: ministros; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO public.ministros (id, nome) VALUES (1, 'Luciano');
-INSERT INTO public.ministros (id, nome) VALUES (2, 'Leda');
-INSERT INTO public.ministros (id, nome) VALUES (3, 'Maria Helena');
-INSERT INTO public.ministros (id, nome) VALUES (4, 'Maria José');
-INSERT INTO public.ministros (id, nome) VALUES (5, 'Gleice');
-INSERT INTO public.ministros (id, nome) VALUES (6, 'Sônia');
-INSERT INTO public.ministros (id, nome) VALUES (7, 'Lourdes');
-INSERT INTO public.ministros (id, nome) VALUES (8, 'Celene');
-INSERT INTO public.ministros (id, nome) VALUES (9, 'Zélia');
-INSERT INTO public.ministros (id, nome) VALUES (10, 'Dona Maria');
+INSERT INTO public.ministro (id, nome) VALUES (1, 'Luciano');
+INSERT INTO public.ministro (id, nome) VALUES (2, 'Leda');
+INSERT INTO public.ministro (id, nome) VALUES (3, 'Maria Helena');
+INSERT INTO public.ministro (id, nome) VALUES (4, 'Maria José');
+INSERT INTO public.ministro (id, nome) VALUES (5, 'Gleice');
+INSERT INTO public.ministro (id, nome) VALUES (6, 'Sônia');
+INSERT INTO public.ministro (id, nome) VALUES (7, 'Lourdes');
+INSERT INTO public.ministro (id, nome) VALUES (8, 'Celene');
+INSERT INTO public.ministro (id, nome) VALUES (9, 'Zélia');
+INSERT INTO public.ministro (id, nome) VALUES (10, 'Dona Maria');
 
 
 --
 -- Name: ministros_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.ministros_id_seq', 10, true);
+SELECT pg_catalog.setval('public.ministro_id_seq', 10, true);
 
 
 --
@@ -223,7 +223,7 @@ ALTER TABLE ONLY public.escala
 -- Name: ministros ministros_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY public.ministros
+ALTER TABLE ONLY public.ministro
     ADD CONSTRAINT ministros_pkey PRIMARY KEY (id);
 
 
