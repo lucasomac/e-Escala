@@ -2,4 +2,4 @@
 backend/.idea/
 refactory/ node_modules/
 postgre/ node_modules/
-Migracao/.env
+postgre/.env
