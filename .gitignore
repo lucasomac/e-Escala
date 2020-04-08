@@ -1,5 +1,9 @@
-
 backend/.idea/
-refactory/ node_modules/
-postgre/ node_modules/
+postgre/node_modules
+backend/node_modules
+web/node_modules
+mobile/node_modules
+mobile/.expo
+mobile/.expo-shared
 postgre/.env
+*.log
