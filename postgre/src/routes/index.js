@@ -11,10 +11,11 @@ routes.get('/', (request, response) => {
 /* Rotas para a entidade ministro */
 routes.get('/ministros', MinistroController.index);
 routes.post('/ministros', MinistroController.create);
-routes.get('/searchm/:name', SearchController.index);
+routes.get('/searchm/:name', SearchController.indexMinistro);
 routes.put('/ministros', MinistroController.update);
 /* Rotas para a entidade escala */
 routes.get('/escalas', EscalaController.index);
+routes.post('/escalas', EscalaController.create);
 module.exports = routes;
 
 /**

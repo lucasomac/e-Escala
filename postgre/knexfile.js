@@ -25,10 +25,10 @@ module.exports = {
     }, migrations: {
       directory: './migrations'
     }, useNullAsDefault: true,
-    pool: {
-      min: 2,
-      max: 10
-    },
+    // pool: {
+    //   min: 2,
+    //   max: 10
+    // },
     migrations: {
       tableName: 'knex_migrations'
     }
