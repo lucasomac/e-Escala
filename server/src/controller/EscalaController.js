@@ -19,7 +19,7 @@ module.exports = {
         return response.json(inserts);
     },
     async index(request, response) {
-        const escalas = await database('escala').select('*');
+        const escalas = await database('escala').select('*').orderBy(['data', 'horario']);
         return response.json(escalas);
     }
 };

@@ -11,7 +11,8 @@ routes.get('/', (request, response) => {
 /* Rotas para a entidade ministro */
 routes.get('/ministros', MinistroController.index);
 routes.post('/ministros', MinistroController.create);
-routes.get('/searchm/:name', SearchController.indexMinistro);
+routes.get('/byName/:name', SearchController.indexMinistroName);
+routes.get('/byId/:id', SearchController.indexMinistroId);
 routes.put('/ministros', MinistroController.update);
 /* Rotas para a entidade escala */
 routes.get('/escalas', EscalaController.index);
