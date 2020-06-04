@@ -24,9 +24,11 @@ li.escala-item header .data-info {
 .data-info h1 {
     color: #999;
     margin-top: 2px;
+    text-align: center;
 }
 
 .data-info h2 {
     color: #999;
     margin-top: 2px;
+    text-align: center;
 }

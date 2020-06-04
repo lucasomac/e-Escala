@@ -17,7 +17,7 @@ function formatDate(data) {
 //     return t;
 // }
 
-function EscalaItem({escala}) {
+function EscalaItem({ escala }) {
     return (
         <li className="escala-item">
             <header>

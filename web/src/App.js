@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import api from './services/Api'
 import EscalaItem from "./components/EscalaItem";
 import './global.css'
@@ -29,14 +29,15 @@ function App() {
 
     return (
         <div id="app">
-            <aside align="center">
-                <strong>Escala Ministerial do Mês de Março</strong>
-                {/*<DevForm onSubmit={handleAddDev}/>*/}
-            </aside>
+            {/* <aside align="center"> */}
+            {/* <strong>Escala Ministerial do Mês de Março</strong> */}
+            {/*<DevForm onSubmit={handleAddDev}/>*/}
+            {/* </aside> */}
             <main>
+                <h1 align="center"><strong>Escala Ministerial do Mês de Março</strong></h1>
                 <ul>
                     {escalas.map(escala => (
-                        <EscalaItem escala={escala} key={escala._id}/>
+                        <EscalaItem escala={escala} key={escala._id} />
                     ))}
                 </ul>
             </main>
