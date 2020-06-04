@@ -1,10 +1,23 @@
 server/node_modules
 web/node_modules
-mobile/node_modules
-mobile/.expo
-mobile/.expo-shared
+app/node_modules
+app/.expo/*
+app/.expo-shared
 server/.env
 *.log
 *.lock
 *.lock
 mobile/package-lock.json
+
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+app/web-build/
+app/web-report/
+
+# macOS
+.DS_Store

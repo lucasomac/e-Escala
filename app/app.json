@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "smart",
-    "slug": "smart",
+    "name": "app",
+    "slug": "app",
     "platforms": [
       "ios",
       "android",
