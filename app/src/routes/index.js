@@ -13,7 +13,7 @@ function Routes() {
     return (
         <NavigationContainer>
             <Stack.Navigator screenOptions={ScreenStyles}>
-                <Stack.Screen name="Main" component={ListaEscala} options={{ title: "EscalaMinisterial" }}>
+                <Stack.Screen name="Main" component={ListaEscala} options={{ title: "e-Escala" }}>
                 </Stack.Screen>
             </Stack.Navigator>
         </NavigationContainer>
