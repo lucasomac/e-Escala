@@ -7,3 +7,5 @@ mobile/.expo
 mobile/.expo-shared
 postgre/.env
 *.log
+*.lock
+*.lock
