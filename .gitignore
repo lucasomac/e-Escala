@@ -1,11 +1,10 @@
-backend/.idea/
-postgre/node_modules
-backend/node_modules
+server/node_modules
 web/node_modules
 mobile/node_modules
 mobile/.expo
 mobile/.expo-shared
-postgre/.env
+server/.env
 *.log
 *.lock
 *.lock
+mobile/package-lock.json
