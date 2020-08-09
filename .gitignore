@@ -1,6 +1,4 @@
-server/node_modules
-web/node_modules
-app/node_modules
+node_modules/
 app/.expo/*
 app/.expo-shared
 server/.env
@@ -16,7 +14,7 @@ npm-debug.*
 *.key
 *.mobileprovision
 *.orig.*
-app/web-build/
+web-build/
 app/web-report/
 
 # macOS
@@ -26,3 +24,4 @@ app/web-report/
 .expo
 .idea
 *.sqlite
+
