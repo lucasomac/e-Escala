@@ -1,7 +1,9 @@
-const database = require('../database');
-module.exports = {
-    async create(request, response) {
-        const { name, phone } = request.body;
+import database from "../database";
+import {Request, Response} from "express";
+
+export default {
+    async create(request: Request, response: Response) {
+        const {name, phone} = request.body;
         const [id] = await database('ministro').insert({
             name: name, phone: phone
         }, "id");
@@ -9,12 +11,12 @@ module.exports = {
             id
         });
     },
-    async index(request, response) {
+    async index(request: Request, response: Response) {
         const ministros = await database('ministro').select('*');
         return response.json(ministros);
     },
-    async update(request, response) {
-        const { id, phone } = request.body;
+    async update(request: Request, response: Response) {
+        const {id, phone} = request.body;
         const ministros = await database('ministro').update({
             phone
         }).where('id', id);
