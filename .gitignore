@@ -21,3 +21,8 @@ app/web-report/
 
 # macOS
 .DS_Store
+
+.expo-shared
+.expo
+.idea
+*.sqlite
