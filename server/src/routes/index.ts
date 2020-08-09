@@ -1,12 +1,12 @@
-const { Router } = require('express');
-const EscalaController = require('../controller/EscalaController');
-const MinistroController = require('../controller/MinistroController');
-const SearchController = require('../controller/SearchController');
+import {Router} from "express";
+import EscalaController from "../controller/EscalaController";
+import MinistroController from "../controller/MinistroController";
+import SearchController from "../controller/SearchController";
 
 const routes = Router();
 /* GET home page. */
 routes.get('/', (request, response) => {
-    response.send({ message: 'Endpoint Working - API Sucefull!' });
+    response.send({message: 'Endpoint Working - API Sucefull!'});
 });
 /* Rotas para a entidade ministro */
 routes.get('/ministros', MinistroController.index);
@@ -17,7 +17,7 @@ routes.put('/ministros', MinistroController.update);
 /* Rotas para a entidade escala */
 routes.get('/escalas', EscalaController.index);
 routes.post('/escalas', EscalaController.create);
-module.exports = routes;
+export default routes;
 
 /**
  *Tipos de parâmetros:
