@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import ListaEscala from "../components/ListaEscala";
+import ListaEscala from "../pages/ListaEscala";
 
 const Stack = createStackNavigator();
 const ScreenStyles = {
