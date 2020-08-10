@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import {SafeAreaView, StyleSheet, FlatList} from 'react-native';
-import ItemEscala from '../components/ItemEscala';
-import api from '../services/Api';
+import {FlatList, SafeAreaView} from 'react-native';
+import ItemEscala from '../../components/ItemEscala';
+import api from '../../services/Api';
 import styles from "./styles";
 
-export default function App() {
+export default function ListaEscala() {
     const [escalas, setEscalas] = useState([]);
     useEffect(() => {
         async function loadEscalas() {
@@ -18,8 +18,10 @@ export default function App() {
         <SafeAreaView style={styles.container}>
             <FlatList
                 data={escalas}
-                renderItem={({item}) => <ItemEscala escala={item}/>}
-                keyExtractor={item => item.id}
+                renderItem={({item: {data, horario, local, ministro}}) => <ItemEscala data={data} horario={horario}
+                                                                                      local={local}
+                                                                                      ministro={ministro}/>}
+                keyExtractor={({id}) => id}
             />
         </SafeAreaView>
     );
