@@ -3,7 +3,7 @@ import {StyleSheet} from "react-native";
 
 export default StyleSheet.create({
     item: {
-        backgroundColor: '#ec733d',
+        backgroundColor: '#d64c18',
         padding: 8,
         marginVertical: 24,
         marginHorizontal: 16,
@@ -12,21 +12,22 @@ export default StyleSheet.create({
     },
     data: {
         fontSize: 32,
-        fontWeight: "bold",
         textAlign: "center"
     },
     horario: {
         textAlign: "center",
-        fontSize: 28,
+        fontWeight: "bold",
+        fontSize: 32,
     },
     local: {
         textAlign: "center",
-        fontSize: 25,
+        fontSize: 32,
     },
     ministros: {
         textAlign: "center",
-        fontSize: 25,
-        color: "#FFF"
+        fontSize: 32,
+        fontWeight: "bold",
+        color: "#FFF",
     }
 
 });

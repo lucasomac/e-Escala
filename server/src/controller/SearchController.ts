@@ -11,7 +11,7 @@ export default {
         const {id} = request.params;
         const name = await database('ministro').where('id', id).select('name');
         console.log(name);
-        return response.json(name);
+		return response.json(name);
     },
     async searchMinistro(name: string) {
         const [id] = await database('ministro').where('name', name).select('id');
